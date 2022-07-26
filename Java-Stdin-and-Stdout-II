@@ -1,0 +1,17 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        int i = sc.nextInt();
+        double d = sc.nextDouble();
+        String s = sc.nextLine();//limpa o buffer
+        s = sc.nextLine();//recebe os caracteres
+        
+        System.out.println("String: "+s+"\nDouble: "+d+"\nInt: "+i);
+        
+    }
+}
